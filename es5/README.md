@@ -109,6 +109,22 @@
   - 所有jquery对象变量应使用`$`作为前缀
   - 注意缓存jquery对象，不要频繁使用相同选择器获取jquery对象
 
+#### [HTML & CSS]
+  - HTML文件或者片段也要遵守一行不超过120字符的约束
+  - HTML标签上的原始属性与框架属性不写在同一行
+
+    ```javascript
+    // bad
+    <p style="color: red;" ng-if="switch">
+
+    // good
+    <p style="color: red;" 
+      ng-if="switch">
+    ```
+
+  - HTML与CSS同样使用两空格缩进 
+  - 仅使用标签和类来指定CSS, 不要用ID来指定CSS, ID属性留给js代码使用
+
 
 ## Types
 
