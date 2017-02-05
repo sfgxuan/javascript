@@ -1,5 +1,5 @@
 
-# Yimian ES5 Style Guide() {
+# Yimian ES5 Style Guide
 
 
 ## Table of Contents
@@ -109,7 +109,7 @@
   - 所有jquery对象变量应使用`$`作为前缀
   - 注意缓存jquery对象，不要频繁使用相同选择器获取jquery对象
 
-#### [HTML & CSS]
+#### [HTML & CSS](#)
   - HTML文件或者片段也要遵守一行不超过120字符的约束
   - HTML标签上的原始属性与框架属性不写在同一行
 
