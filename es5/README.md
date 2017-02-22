@@ -84,6 +84,25 @@
   - 所有文件末尾留一空行
   - 链式函数调用时适当换行, 新行`.`号在前
   - 语句块后留一空行(if后跟else, else应与if语句块反大括号同行)
+  - 数组定义中括号前后不要留空格
+
+    ```javascript
+    // bad
+    var arr = [ 1, 2, 3 ];
+
+    // good
+    var arr = [1, 2, 3];
+    ```
+
+  - 对象定义大括号前后留空格
+
+    ```javascript
+    // bad
+    var arr = {some: 'some'};
+
+    // good
+    var arr = { some: 'some' };
+    ```
 
 #### [逗号](#commas)
   - 不要使用前置逗号的风格
